@@ -1,7 +1,7 @@
 #=================================================
 # Description: Phicomm K2P Openwrt Autobuild
 # Lisence: MIT
-# Author: tjuyy
+# Author: tjuyy 
 #=================================================
 name: Build Lean's OpenWrt for K2P
 
