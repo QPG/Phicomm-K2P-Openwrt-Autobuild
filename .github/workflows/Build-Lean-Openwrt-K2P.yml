@@ -3,7 +3,7 @@
 # Lisence: MIT
 # Author: tjuyy 
 #=================================================
-name: Build Lean's OpenWrt for K2P
+name: Build OpenWrt
 
 on:
   release:
