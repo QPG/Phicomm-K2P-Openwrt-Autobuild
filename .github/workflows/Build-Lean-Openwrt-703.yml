@@ -109,6 +109,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: openwrt/bin/targets/ramips/ar71xx/*
+          files: openwrt/bin/targets/ar71xx/tiny/*
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASES_DEPLOY_TOKEN }}
