@@ -54,7 +54,7 @@ jobs:
 
       - name: Load custom configuration
         env:
-          CONFIG_FILE: "K2P.config"
+          CONFIG_FILE: "wr703n-v1.conf"
           DIY_SH: "diy.sh"
         run: |
           [ -e files ] && mv files openwrt/files
